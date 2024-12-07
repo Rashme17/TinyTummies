@@ -1,0 +1,9 @@
+<resources>
+
+    <!-- Baby pink background color -->
+    <color name="baby_pink">#FADADD</color> <!-- Light pink color -->
+
+    <!-- Dark pink color for controls -->
+    <color name="dark_pink">#D81B60</color> <!-- Dark pink color -->
+
+</resources>

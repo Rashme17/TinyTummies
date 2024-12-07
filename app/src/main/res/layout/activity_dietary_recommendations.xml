@@ -1,0 +1,116 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dietary Recommendations"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="16dp" />
+
+        <!-- General Advice Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="General Advice:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/textViewGeneralAdvice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ensure the child gets a balanced diet rich in fruits, vegetables, grains, and proteins. Keep them hydrated and avoid processed foods."
+            android:textSize="16sp"
+            android:paddingBottom="16dp" />
+
+        <!-- Meal Plan Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meal Plan:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <!-- Breakfast Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="16dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_breakfast"
+                android:contentDescription="Breakfast Icon"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:id="@+id/textViewBreakfast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Breakfast: Porridge, a boiled egg, and a glass of milk."
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <!-- Lunch Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="16dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_lunch"
+                android:contentDescription="Lunch Icon"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:id="@+id/textViewLunch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lunch: Rice, lentil soup, steamed vegetables, and curd."
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <!-- Dinner Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="16dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_dinner"
+                android:contentDescription="Dinner Icon"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:id="@+id/textViewDinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dinner: Chapati, vegetable curry, and a banana."
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

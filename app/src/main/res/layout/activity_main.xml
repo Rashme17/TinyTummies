@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@color/baby_pink"> <!-- Use color from colors.xml -->
+
+    <!-- App Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Tiny Tummies!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#D81B60" <!-- Dark Pink Text Color -->
+        android:gravity="center"
+        android:paddingBottom="16dp" />
+
+    <!-- App Description -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Track, monitor, and enhance your child's health and nutrition!"
+        android:textSize="16sp"
+        android:textColor="#757575"
+        android:gravity="center"
+        android:paddingBottom="24dp" />
+
+    <!-- Register Child Button -->
+    <Button
+        android:id="@+id/button_register_child"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#8BC34A"
+        android:textColor="#FFFFFF"
+        android:text="Register Child"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <!-- View Growth Chart Button -->
+    <Button
+        android:id="@+id/button_growth_chart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#03A9F4"
+        android:textColor="#FFFFFF"
+        android:text="View Growth Chart"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Dietary Recommendations Button -->
+    <Button
+        android:id="@+id/button_dietary_recommendations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFEB3B"
+        android:textColor="#333333"
+        android:text="Dietary Recommendations"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+</LinearLayout>
